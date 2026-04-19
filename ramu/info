@@ -1,0 +1,348 @@
+{
+  "uuid": "d5a454e9985d37764de19596f6bed4ba",
+  "path": "Offline/ramu",
+  "name": "ramu",
+  "content": "",
+  "created_at": "2026-04-19 01:47:42",
+  "updated_at": "2026-04-19 11:51:49",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "d9667421ace9eab8a9b9870ccd5fa2ee",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "1362d432571641f181996d3691f735a8": 1,
+        "fd11c9e744c44aeab6011e8bd4c3ea86": 4,
+        "eb6be81ed1ae480c938961b6b9e1c83b": 1,
+        "e19f4f81af8a4a7f82f2b940031d97c1": 1,
+        "b7adf400643b4936be8b786704d0e70f": 1,
+        "b2a0b134445b41328388200a6421b674": 1,
+        "b0248eb51e084227889f2cb84eab79c4": 5,
+        "5cbe824183374fac8e4c1ae848199ce3": 3,
+        "60571cb0cde644fa95cd6606ecb4462f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "battery",
+          1,
+          "BATTERY-SMD_18650-1S-L77.1-W20.7-1",
+          "BT1",
+          {
+            "Manufacturer Part": "BH-18650-B1BA002",
+            "Manufacturer": "MYOUNG(美阳)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2988620"
+          }
+        ],
+        [
+          "0.1u",
+          4,
+          "C0603",
+          "C1,C2,C3,C4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LED-green",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "LED-yellow",
+          1,
+          "LED0603_RED",
+          "LED2",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "LED-red",
+          1,
+          "LED0603_RED",
+          "LED3",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "0.96OLED",
+          1,
+          "0.96OLED_4P",
+          "OLED1",
+          {
+            "Manufacturer Part": "0.96OLED_4P_MODULE_JX",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900004566"
+          }
+        ],
+        [
+          "1k",
+          5,
+          "R0603",
+          "R1,R2,R3,R4,R5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-89-3_L4.5-W2.4-P1.50-LS4.0-BR",
+          "U1",
+          {
+            "Manufacturer Part": "AMS1117-3.3S-EV",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C28642132"
+          }
+        ],
+        [
+          "BME280",
+          1,
+          "LGA-8_BME280_BL",
+          "U2",
+          {
+            "Manufacturer Part": "BME280",
+            "Manufacturer": "Bosch(博世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92489"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U3",
+          {
+            "Manufacturer Part": "ARDUINO_NANO",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879"
+          }
+        ],
+        [
+          "PMS5003",
+          1,
+          "PMS5003",
+          "U4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1776578809,
+      "createTime": 1776542564,
+      "histories": [],
+      "created_at": "2026-04-19 01:47:44",
+      "updated_at": "2026-04-19 11:51:49"
+    },
+    {
+      "uuid": "da288e9e97ed4a4c270e65f4073eb190",
+      "puuid": "d5a454e9985d37764de19596f6bed4ba",
+      "title": "PCB_ramu",
+      "filename": "PCB_ramu.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "105d549b433940fabcf03ce5f5faeff8": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 4,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 3,
+        "88b7b62f56d14ce0a65d98c420c09d52": 1,
+        "398691f1f785460098bbe5ee6590333c": 5,
+        "17ba4442cad945ff8b1246b251671b84": 1,
+        "20fdb34528854e05a490ba0f81487b85": 1,
+        "ff6e2030776d4574a7594ce501bb86c5": 1,
+        "3d234a52223b42e2a40d844df3b4e830": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "battery",
+          1,
+          "BATTERY-SMD_18650-1S-L77.1-W20.7-1",
+          "BT1",
+          {
+            "Manufacturer Part": "BH-18650-B1BA002",
+            "Manufacturer": "MYOUNG(美阳)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2988620"
+          }
+        ],
+        [
+          "0.1u",
+          4,
+          "C0603",
+          "C1,C2,C3,C4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "LED-green",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "LED-yellow",
+          1,
+          "LED0603_RED",
+          "LED2",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "LED-red",
+          1,
+          "LED0603_RED",
+          "LED3",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "0.96OLED",
+          1,
+          "0.96OLED_4P",
+          "OLED1",
+          {
+            "Manufacturer Part": "0.96OLED_4P_MODULE_JX",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900004566"
+          }
+        ],
+        [
+          "1k",
+          5,
+          "R0603",
+          "R1,R2,R3,R4,R5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "AMS1117-3.3",
+          1,
+          "SOT-89-3_L4.5-W2.4-P1.50-LS4.0-BR",
+          "U1",
+          {
+            "Manufacturer Part": "AMS1117-3.3S-EV",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C28642132"
+          }
+        ],
+        [
+          "BME280",
+          1,
+          "LGA-8_BME280_BL",
+          "U2",
+          {
+            "Manufacturer Part": "BME280",
+            "Manufacturer": "Bosch(博世)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C92489"
+          }
+        ],
+        [
+          "ARDUINO_NANO",
+          1,
+          "COMM-TH_ARDUINO_NANO",
+          "U3",
+          {
+            "Manufacturer Part": "ARDUINO_NANO",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900017879"
+          }
+        ],
+        [
+          "PMS5003",
+          1,
+          "PMS5003",
+          "U4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1776567131,
+      "createTime": 1776565750,
+      "histories": [],
+      "created_at": "2026-04-19 08:14:10",
+      "updated_at": "2026-04-19 08:37:11"
+    }
+  ],
+  "sort": [],
+  "title": "ramu",
+  "foldername": "ramu",
+  "schfilename": "ramu.json",
+  "schfilemtime": 1776578810108
+}
